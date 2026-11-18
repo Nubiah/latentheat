@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="TD4" company="" webLink="http://" view-date="2017-09-29" view-index="1" gantt-divider-location="285" resource-divider-location="300" version="3.0.2914" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="117" order="0"/>
+        <field id="tpd4" name="Date de début" width="82" order="1"/>
+        <field id="tpd5" name="Date de fin" width="82" order="2"/>
+        <option id="taskLabelRight" value="resources"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="148" order="0"/>
+        <field id="1" name="Rôle par défaut" width="148" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="A" color="#8cb6ce" meeting="false" start="2017-10-04" duration="3" complete="0" expand="true">
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1" name="B" color="#8cb6ce" meeting="false" start="2017-10-09" duration="4" complete="0" expand="true"/>
+        <task id="7" name="N" color="#8cb6ce" meeting="false" start="2017-10-06" duration="3" complete="0" expand="true"/>
+        <task id="8" name="H" color="#8cb6ce" meeting="false" start="2017-10-11" duration="2" complete="0" expand="true"/>
+        <task id="3" name="D" color="#8cb6ce" meeting="false" start="2017-10-06" duration="2" complete="0" expand="true"/>
+        <task id="4" name="E" color="#8cb6ce" meeting="false" start="2017-10-02" duration="2" complete="0" expand="true">
+            <depend id="0" type="2" difference="0" hardness="Strong"/>
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="9" name="M" color="#8cb6ce" meeting="false" start="2017-10-05" duration="4" complete="0" expand="true">
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="6" name="G" color="#8cb6ce" meeting="false" start="2017-10-02" duration="4" complete="0" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" name="F" color="#8cb6ce" meeting="false" start="2017-10-13" duration="3" complete="0" expand="true"/>
+        <task id="11" name="K" color="#8cb6ce" meeting="false" start="2017-10-05" duration="2" complete="0" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" name="C" color="#8cb6ce" meeting="false" start="2017-10-02" duration="3" complete="0" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="12" name="L" color="#8cb6ce" meeting="false" start="2017-10-06" duration="5" complete="0" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="13" name="R" color="#8cb6ce" meeting="false" start="2017-10-06" duration="2" complete="0" expand="true">
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="14" name="J" color="#8cb6ce" meeting="false" start="2017-10-04" duration="2" complete="0" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="16" name="meca 1" function="1" contacts="" phone=""/>
+        <resource id="17" name="meca 2" function="1" contacts="" phone=""/>
+        <resource id="18" name="meca 3" function="1" contacts="" phone=""/>
+        <resource id="27" name="meca 4" function="1" contacts="" phone=""/>
+        <resource id="34" name="meca 5" function="1" contacts="" phone=""/>
+        <resource id="35" name="meca 6" function="1" contacts="" phone=""/>
+        <resource id="25" name="elec 1" function="2" contacts="" phone=""/>
+        <resource id="26" name="elec 2" function="2" contacts="" phone=""/>
+        <resource id="28" name="elec 3" function="2" contacts="" phone=""/>
+        <resource id="29" name="elec 4" function="2" contacts="" phone=""/>
+        <resource id="30" name="elec 5" function="2" contacts="" phone=""/>
+        <resource id="31" name="elec 6" function="2" contacts="" phone=""/>
+        <resource id="32" name="elec 7" function="2" contacts="" phone=""/>
+        <resource id="33" name="elec 8" function="2" contacts="" phone=""/>
+        <resource id="38" name="elec 9" function="2" contacts="" phone=""/>
+        <resource id="39" name="elec 10" function="2" contacts="" phone=""/>
+        <resource id="40" name="elec 11" function="2" contacts="" phone=""/>
+        <resource id="41" name="elec 12" function="2" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="4" resource-id="16" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="16" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="16" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="16" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="16" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="17" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="17" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="17" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="17" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="18" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="18" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="27" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="34" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="35" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="25" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="25" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="25" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="25" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="6" resource-id="26" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="26" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="26" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="6" resource-id="28" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="28" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="29" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="29" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="30" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="30" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="31" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="32" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="33" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="38" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="39" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="40" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="41" function="2" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Mécanicien"/>
+        <role id="2" name="Electricien"/>
+    </roles>
+</project>
