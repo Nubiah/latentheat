@@ -1,17 +1,28 @@
-# Quartz v5
+# Latent Heat
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+Site de cours (BTS FED/FCA) généré avec [Quartz](https://quartz.jzhao.xyz/), publié sur GitHub Pages.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+*« La chaleur invisible qui change l'état des choses. »*
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## Structure
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+- `content/` — les notes de cours (Markdown, syntaxe Obsidian welcome)
+- `quartz.config.yaml` — config du site (titre, thème, plugins)
+- `.github/workflows/deploy.yml` — build + déploiement automatique à chaque push sur `main`
 
-## Sponsors
+## Publier une note
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+Écrire le `.md` dans `content/` (une arbo = une section du site), puis :
+
+```bash
+git add content/ && git commit -m "cours: <sujet>" && git push
+```
+
+Le site est reconstruit automatiquement (~1 min).
+
+## Setup local
+
+```bash
+npm i
+npx quartz build --serve   # serveur de dev sur localhost:8080
+```
