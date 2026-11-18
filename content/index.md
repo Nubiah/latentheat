@@ -15,3 +15,5 @@ title: Accueil
 
 1. Commence par la section correspondant à ton module
 2. Les fiches marquées 📌 sont les indispensables pour l'examen
+
+<!-- marker-0083624 -->
