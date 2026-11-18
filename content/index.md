@@ -16,4 +16,3 @@ title: Accueil
 1. Commence par la section correspondant à ton module
 2. Les fiches marquées 📌 sont les indispensables pour l'examen
 
-* sonde-deploiement-15h46 *
